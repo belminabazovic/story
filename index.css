@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    background-color: #0E0E0E;
+}
+
+#bodyContainer {
+    width: 100%;
+    height: auto;
+}
+
+#scrollContainer {
+    z-index: 50;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    padding: 50px 0px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+#sectionOne {
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
+    background-image: url('img/922975-house-illustration-sky-night-digital-art.jpg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+#sectionOneContent {
+    padding-top: 30vh;
+    text-align: center;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
